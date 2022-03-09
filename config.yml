@@ -1,0 +1,7 @@
+pipeline_template: frontend/Jenkinsfile
+GIT_URL: "https://git.code.tencent.com/WeTax-Frontend/workfow-web.git"
+PROJECT_NAME: "workfow-web"
+PROJECT_COMMENT: "workfow-web" 
+DIST_PATH: "/dist"
+VERSION_TYPESCRIPT: "4.5.2"
+IS_NEW_PROJECT: "True"

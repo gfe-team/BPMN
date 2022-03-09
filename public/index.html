@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="version" content="v<%= htmlWebpackPlugin.options.version %>" id="version" />
+  <link rel="icon" href="<%= BASE_URL %>logo.svg">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <!-- <style>
+    css-doodle {
+    --color: @p(rgba(26, 210, 160,0.3), rgba(26, 210, 160,0.25), rgba(26, 210, 160,0.2),rgba(26, 210, 160,0.1));
+
+    --rule: ( :doodle {
+        @grid: 10x1 / 40vmin;
+        --deg: @p(-180deg, 180deg);
+      }
+
+      :container {
+        perspective: 20vmin;
+      }
+
+      :after, :before {
+        content: '';
+        background: var(--color);
+        @place-cell: @r(100%) @r(100%);
+        @size: @r(26px);
+        /* @shape: heart; */
+      }
+
+      @place-cell: center;
+      @size: 100%;
+      box-shadow: @m2(0 0 50px var(--color));
+      will-change: transform, opacity;
+      animation: scale-up 200s linear infinite;
+      animation-delay: calc(-20s / @I * @i);
+
+      @keyframes scale-up {
+        0%, 100% {
+          transform: translateZ(0) rotate(0);
+          opacity: 0;
+        }
+
+        10% {
+          opacity: 1;
+        }
+
+        95% {
+          transform: translateZ(90vmin) rotateZ(@var(--deg));
+          /* transform: translateZ(35vmin) rotateZ(@var(--deg)); */
+        }
+      }
+
+    )
+  }
+  </style> -->
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
